@@ -1,0 +1,560 @@
+@import _header.sass
+@import _navbar.sass
+@import _information.sass
+
+*
+    margin: 0
+    padding: 0
+    font-family: 'Open Sans', sans-serif
+
+
+.container
+    width: 1300px
+    margin: 0 auto
+
+
+.begin
+    height: 688px
+    background-color: #f6f2f2
+    padding-top: 30px
+    position: relative
+
+    .nav
+        display: flex
+        height: 89px
+        opacity: 0.8
+        background-color: #000000
+        width: 100%
+        
+        .wrapper
+            width: 500px
+            display: flex
+            margin: 0 auto
+            justify-content: space-between
+            height: 89px
+            font-size: 14px
+            font-weight: 700
+            text-transform: uppercase
+            a
+                text-decoration: none
+                color: #e0e0e0
+                width: 125px
+                height: 100%
+                text-align: center
+                line-height: 90px
+            a:hover
+                background-color:#ff3f40
+                transition: .9s all   
+    .header
+        display: flex
+        justify-content: space-between
+        margin-top: 105px
+        .descr
+            width: 600px
+            .title
+                font-size: 60px;
+                line-height: 72px
+                font-weight: 800
+                text-transform: uppercase
+                color: #000000
+                margin-bottom: 40px
+            .description
+                font-size: 16px
+                line-height: 28px
+                font-weight: 400
+                color: #000000
+                opacity: 0.7  
+            .button
+                margin-top: 60px
+                width: 227px
+                height: 55px
+                background-color: #ff2d2d
+                border-radius: 5px
+                border: none
+                font-size: 18.2px
+                font-weight: 700
+                color: #ffffff
+                cursor: pointer
+        .video
+            position: relative
+            width: 551px
+            height: 356px
+            background-color: #c4c0b1  
+            box-shadow: -2px -14px 73px 0px rgba(0,0,0,0.28) 
+            .play
+                position: absolute     
+                left: 50%
+                top: 50%
+                transform: translateY(-50%) translateX(-50%)
+                cursor: pointer
+            
+.information
+    margin: 115px 0 0 0
+    .wrapper
+        display: flex
+        justify-content: space-between
+    .dyk
+        width: 500px
+        .title
+            opacity: 0.8
+            font-size: 42px
+            line-height: 55px
+            font-weight: 700
+            text-transform: uppercase
+            color: #000000
+            margin-bottom: 50px
+        .sec
+            font-size: 16px
+            line-height: 28px
+            font-weight: 400
+            color: #000000
+            margin-bottom: 58px
+        .button
+            width: 227px
+            height: 55px
+            border: 2px solid #ff0000
+            border-radius: 5px
+            font-size: 18.2px
+            line-height: 34px
+            font-weight: 700
+            color: #ff2d2d
+            background-color: #ffffff   
+            cursor: pointer 
+    .baffs
+        width: 620px
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        .maneg, .design, .brand, .animation
+            width: 280px
+            img
+                margin-bottom: 30px
+            .main
+                opacity: 0.7
+                font-size: 24px
+                line-height: 1.2
+                font-weight: 600
+                color: #000000
+                margin-bottom: 15px
+            .sec
+                opacity: 0.7
+                font-size: 16px
+                line-height: 28px
+                font-weight: 400
+                color: #000000  
+                margin-bottom: 50px
+
+.products
+    .hr
+        height: 2px
+        margin: 105px 0 105px 0  
+        border: none
+        background-color: #ececec
+    .first
+        opacity: 0.8
+        font-size: 42px
+        font-weight: 700
+        text-transform: uppercase
+        color: #000000   
+        text-align: center
+        margin-bottom: 25px
+    .second
+        opacity: 0.7
+        font-size: 16px
+        line-height: 28px
+        font-weight: 400
+        color: #000000
+        width: 505px     
+        text-align: center      
+        margin: 0 auto 
+        margin-bottom: 30px
+    .hr_2
+        width: 132px
+        height: 3px
+        background-color: #ff2d2d 
+        margin: 0 auto   
+        border: none
+        margin-bottom: 90px
+    .menu
+        width: 890px
+        display: flex
+        justify-content: space-between
+        margin: 0 auto
+        div
+            opacity: 0.7
+            font-size: 22px
+            font-weight: 600
+            text-transform: uppercase
+            color: #000000
+            margin-bottom: 66px
+        div:hover
+            color: #ff2d2d
+            cursor: pointer
+            transition: .3s all
+        .div_active
+            color: #ff2d2d
+    .content
+        display: none
+        div
+            width: 298px
+            height: 291px
+            background-color: #f5f0dd
+            margin-right: 19px
+            margin-bottom: 20px
+        .a
+            background: url('../images/we_gang.jpg') center (center/cover) no-repeat            
+        .b
+            background: url('../images/We_library.jpg') center (center/cover) no-repeat
+        .c
+            background: url('../images/We_shadow.jpg') center (center/cover) no-repeat
+        .d
+            background: url('../images/We.jpg') center (center/cover) no-repeat
+        .e
+            background: url('../images/We_talk.jpg') center (center/cover) no-repeat   
+        .sasha_rubik
+            background:  url('../images/Sasha_rubik.jpg') center (center/cover) no-repeat
+        .pasha_man
+            background:  url('../images/Pasha_man.png') center (center/cover) no-repeat
+        .masha_library
+            background:  url('../images/Masha_library.png') center (center/cover) no-repeat            
+        .marina_self
+            background:  url('../images/Marina.png') center (center/cover) no-repeat            
+        .marina_kubik
+            background:  url('../images/Marina_kubik.png') center (center/cover) no-repeat
+        div:hover
+            width: 320px
+            height: 320px
+            cursor: pointer
+    &:first-child
+        background: url('../images/we_gang.jpg') center (center/cover) no-repeat        
+    .content_active
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+
+.sasha
+    background:  url('../images/Sasha.png') center (center/cover) no-repeat
+.pasha
+    background:  url('../images/Pasha.png') center (center/cover) no-repeat
+.masha
+    background:  url('../images/Masha.png') center (center/cover) no-repeat
+.marina
+    background:  url('../images/Marina_palace.png') center (center/cover) no-repeat
+
+.meetings
+    margin-top: 140px
+    min-height: 500px
+    margin-bottom: 110px
+    .zag
+        opacity: 0.8
+        font-size: 42px
+        font-weight: 700
+        text-transform: uppercase
+        color: #000000
+        margin-bottom: 40px  
+    .nezag
+        opacity: 0.7
+        font-size: 16px
+        line-height: 28px
+        font-weight: 400
+        color: #000000
+        margin-bottom: 35px 
+        width: 450px
+    .meet
+        display: block
+        width: 132px
+        height: 3px
+        background-color: #ff2d2d
+        border: none  
+    .portfolio
+        display: flex
+        justify-content: space-between 
+        margin-top: 70px
+        margin-bottom: 110px
+        .text
+            display: none
+        .photo
+            width: 321px
+            height: 458px
+            .profile_photo_main
+                width: 100%
+                height: 100%
+                display: none
+        ._11
+            background: url('../images/OOoooOO.JPG') center (center/cover) no-repeat
+        ._22
+            background: url('../images/all.JPG') center (center/cover) no-repeat
+        ._33
+            background: url('../images/fun.JPG') center (center/cover) no-repeat
+        ._44
+            background: url('../images/sex.JPG') center (center/cover) no-repeat
+        .info
+            width: calc(100% - 321px)
+            margin-left: 70px
+            .name
+                opacity: 0.8
+                font-size: 30px
+                font-weight: 600
+                text-transform: uppercase
+                color: #000000
+                margin-bottom: 35px 
+            .descript
+                opacity: 0.7
+                font-size: 16px
+                line-height: 28px
+                font-weight: 400
+                color: #000000  
+                margin-bottom: 45px 
+            .soc
+                width: 385px
+                display: flex
+                justify-content: space-between
+                a
+                    opacity: 0.8
+                    font-size: 18px
+                    line-height: 24px
+                    font-weight: 300
+                    font-style: italic
+                    color: #000000 
+                    text-transform: uppercase
+                    text-decoration: none 
+            .photos
+                display: flex
+                justify-content: space-between
+                width: 855px
+                .profiles
+                    width: 197px
+                    height: 214px
+                    background-color: #f5f0dd
+                    margin-top: 43px  
+                    position: relative
+                .inform
+                    position: absolute
+                    bottom: -60px
+                    width: 100%
+                    height: 50px
+                    bottom: 0
+                .text
+                    display: none
+                        
+                .profiles:hover
+                    width: 220px
+                    height: 245px
+                    transition: .5s all
+                    .inform
+                        background-color: #0000006b
+                        transition: .5s all
+                    .text
+                        display: block
+                        height: 100%
+                        font-size: 17px
+                        color: #ffffff
+                        text-align: center    
+        .profile_photo
+            width: 100%
+            height: 100%
+            cursor: pointer
+        
+.sear
+    background-color: #f5f0dd
+    padding-top: 140px
+    padding-bottom: 140px
+    .title
+        opacity: 0.8
+        font-size: 42px
+        font-weight: 700
+        color: #000000
+        text-align: center
+        margin-bottom: 30px
+    .undertitle
+        opacity: 0.8
+        font-size: 16px
+        font-weight: 400
+        color: #000000
+        text-align: center
+        margin-bottom: 60px
+    .main_part
+        text-align: center
+        .input
+            width: 521px
+            height: 79px
+            background-color: #ffffff
+            border: none
+            border-radius: 10px
+            padding-left: 40px
+            opacity: 0.7;
+            font-size: 16px;
+            font-weight: 400;
+            color: #2c2c2c;  
+            margin-right: 22px
+        .button
+            width: 214px
+            height: 79px
+            background-color: #ff2d2d
+            font-size: 18px
+            line-height: 34px
+            font-weight: 700
+            text-transform: uppercase
+            color: #ffffff 
+            border: none
+            border-radius: 10px   
+            cursor: pointer
+    
+.connect
+    margin: 105px 0 110px 0
+    .title
+        opacity: 0.8
+        font-size: 42px
+        font-weight: 700
+        text-transform: uppercase
+        color: #000000
+        margin-bottom: 50px  
+    .descr
+        opacity: 0.7
+        font-size: 16px
+        line-height: 28px
+        font-weight: 400
+        color: #000000
+        margin-bottom: 55px 
+        width: 720px
+    .hr
+        display: block
+        width: 132px
+        height: 3px
+        background-color: #ff2d2d
+        border: none    
+        margin-bottom: 75px  
+    .wrapper
+        display: flex
+        justify-content: space-between  
+        .form_contact 
+            width: 730px
+            .required
+                display: flex
+                justify-content: space-between
+                margin-bottom: 50px
+                input
+                    width: 280px
+                    height: 60px
+                    background-color: #00000023
+                    border-radius: 10px
+                    font-size: 16px
+                    font-weight: 400
+                    color: #0000009c
+                    border: none
+                    padding-left: 50px
+            .message
+                width: 670px     
+                height: 249px
+                background-color: #00000023
+                border: none
+                border-radius: 10px
+                font-size: 16px
+                font-weight: 400
+                color: #000000
+                padding-left: 50px
+                margin-bottom: 45px
+            .button_message
+                width: 100%
+                height: 72px
+                background-color: #ff3b3b
+                border-radius: 5px
+                font-size: 18px;
+                font-weight: 700
+                text-transform: uppercase
+                letter-spacing: 0.025em
+                color: #ffffff   
+                border: none
+                cursor: pointer
+        .contact_info
+            margin-left: 85px
+            width: 590px
+            height: 350px
+            background-color: #2d2d2d
+            padding-left: 80px
+            padding-top: 140px
+            div
+                opacity: 0.8
+                font-size: 16px
+                font-weight: 400
+                color: #ffffff
+                margin-bottom: 25px
+            .main
+                text-transform: uppercase
+                font-weight: 700    
+              
+.footer
+    height: 75px
+    background-color: #313030
+    padding-top: 60px
+    .footer_wrapper
+        display: flex
+        justify-content: space-between
+        .copyright
+            font-size: 16px
+            font-weight: 400
+            color: #b8b8b8
+        .links
+            display: flex
+            justify-content: space-between
+            width: 200px
+            div
+                width: 33px
+                height: 33px
+                background-color: #ffffff
+                border-radius: 100%
+                cursor: pointer
+
+.hamburger
+    display: none
+    position: absolute
+    width: 30px
+    height: 2px
+    top: 30px
+    right: 15px
+    span
+	    display: block
+	    width: 100%
+	    height: 2px
+	    background-color: #ffffff
+	    margin-bottom: 3px
+	    transition: 0.65s all
+
+.menu_media
+    position: fixed
+    top: 0
+    left: -100%
+    width: 80%
+    height: 150vh
+    background-color: rgba(0, 0, 0, .85)
+    padding-top: 100px
+    transition: .5s all
+    a
+        display: block
+        text-align: center
+        font-size: 35px
+        color: #fff
+        margin-bottom: 50px
+        text-decoration: none
+
+.menu_media_active
+    left: 0
+    transition: .5s all
+
+.hamburger_active
+	span:nth-child(1) 
+		margin-bottom: -2px
+		transform: rotate(-45deg)
+	span:nth-child(3)
+		margin-bottom: -2px
+		transform: rotate(45deg) 
+	span:nth-child(2)
+		display: none
+
+@import _media.sass
+
+
+
+        
+
+
