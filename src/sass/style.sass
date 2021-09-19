@@ -71,7 +71,7 @@
                 background-color: #ff2d2d
                 border-radius: 5px
                 border: none
-                font-size: 18.2px
+                font-size: 19px
                 font-weight: 700
                 color: #ffffff
                 cursor: pointer
@@ -202,44 +202,51 @@
             margin-right: 19px
             margin-bottom: 20px
         .a
-            background: url('../images/we_gang.jpg') center (center/cover) no-repeat            
+            background: url('../img/we_gang.jpg') center (center/cover) no-repeat            
         .b
-            background: url('../images/We_library.jpg') center (center/cover) no-repeat
+            background: url('../img/We_library.jpg') center (center/cover) no-repeat
         .c
-            background: url('../images/We_shadow.jpg') center (center/cover) no-repeat
+            background: url('../img/We_shadow.jpg') center (center/cover) no-repeat
         .d
-            background: url('../images/We.jpg') center (center/cover) no-repeat
+            background: url('../img/We.jpg') center (center/cover) no-repeat
         .e
-            background: url('../images/We_talk.jpg') center (center/cover) no-repeat   
+            background: url('../img/We_talk.jpg') center (center/cover) no-repeat   
         .sasha_rubik
-            background:  url('../images/Sasha_rubik.jpg') center (center/cover) no-repeat
+            background:  url('../img/Sasha_rubik.jpg') center (center/cover) no-repeat
+        .sasha_sec
+            background: url('../img/Sasha_sec.png') center (center/cover) no-repeat
         .pasha_man
-            background:  url('../images/Pasha_man.png') center (center/cover) no-repeat
+            background:  url('../img/Pasha_man.png') center (center/cover) no-repeat
+        .pasha_sec
+            background: url('../img/Pasha_sec.png') center (center/cover) no-repeat
         .masha_library
-            background:  url('../images/Masha_library.png') center (center/cover) no-repeat            
+            background:  url('../img/Masha_library.png') center (center/cover) no-repeat   
+        .masha_sec
+            background: url('../img/Masha_sec.png') center (center/cover) no-repeat
+
         .marina_self
-            background:  url('../images/Marina.png') center (center/cover) no-repeat            
+            background:  url('../img/Marina.png') center (center/cover) no-repeat            
         .marina_kubik
-            background:  url('../images/Marina_kubik.png') center (center/cover) no-repeat
+            background:  url('../img/Marina_kubik.png') center (center/cover) no-repeat
         div:hover
             width: 320px
             height: 320px
             cursor: pointer
     &:first-child
-        background: url('../images/we_gang.jpg') center (center/cover) no-repeat        
+        background: url('../img/we_gang.jpg') center (center/cover) no-repeat        
     .content_active
         display: flex
         justify-content: space-around
         flex-wrap: wrap
 
 .sasha
-    background:  url('../images/Sasha.png') center (center/cover) no-repeat
+    background:  url('../img/Sasha.png') center (center/cover) no-repeat
 .pasha
-    background:  url('../images/Pasha.png') center (center/cover) no-repeat
+    background:  url('../img/Pasha.png') center (center/cover) no-repeat
 .masha
-    background:  url('../images/Masha.png') center (center/cover) no-repeat
+    background:  url('../img/Masha.png') center (center/cover) no-repeat
 .marina
-    background:  url('../images/Marina_palace.png') center (center/cover) no-repeat
+    background:  url('../img/Marina_palace.png') center (center/cover) no-repeat
 
 .meetings
     margin-top: 140px
@@ -280,14 +287,6 @@
                 width: 100%
                 height: 100%
                 display: none
-        ._11
-            background: url('../images/OOoooOO.JPG') center (center/cover) no-repeat
-        ._22
-            background: url('../images/all.JPG') center (center/cover) no-repeat
-        ._33
-            background: url('../images/fun.JPG') center (center/cover) no-repeat
-        ._44
-            background: url('../images/sex.JPG') center (center/cover) no-repeat
         .info
             width: calc(100% - 321px)
             margin-left: 70px
@@ -528,6 +527,7 @@
     height: 150vh
     background-color: rgba(0, 0, 0, .85)
     padding-top: 100px
+    z-index: 100
     transition: .5s all
     a
         display: block

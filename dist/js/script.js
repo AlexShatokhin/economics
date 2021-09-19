@@ -47,6 +47,7 @@ let       copy = 0;
                 copy=i;
                 profile[i].style.display = 'block';
                 text[i].style.display = 'block';
+                window.scrollTo(0,3350);
             });
         });
     hamburger.addEventListener('click',()=>{
