@@ -5,27 +5,7 @@ $(document).ready(function(){
           .addClass('div_active').siblings().removeClass('div_active')
           .closest('div.container').find('div.content').removeClass('content_active').eq($(this).index()).addClass('content_active');
       });
-    var $page = $('html, body');
-      $('a[href*="#we"]').click(function() {
-          $page.animate({
-              scrollTop: $($.attr(this, 'href')).offset().top
-          }, 800);
-          return false;
-      });
-      var $page = $('html, body');
-      $('a[href*="#skills"]').click(function() {
-          $page.animate({
-              scrollTop: $($.attr(this, 'href')).offset().top
-          }, 800);
-          return false;
-      });
-      var $page = $('html, body');
-      $('a[href*="#about_us"]').click(function() {
-          $page.animate({
-              scrollTop: $($.attr(this, 'href')).offset().top
-          }, 800);
-          return false;
-      });
+
 
 });
 
